@@ -8,10 +8,16 @@ This is a simple calculator library written in C++ that supports:
 
 ### Using g++
 ```bash
+g++ CS2-Calculator-YousefElmasry main.cpp calculator.cpp -o calculator
+./calculator
 
 ```
 
 ### Using CMake
 ```bash
-
+mkdir build
+cd build
+cmake ..
+make
+./calculator_main
 ```
